@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* IDs e Classes */
+.header-principal {
+   background-color: #AAFFFF;
+   padding: 2rem 1rem;
+}
+
+.header-menu-principal {
+   display: flex;
+}
+
+.header-grid {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+}
+
+/* Tags HTML */
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+   font-size: 2.5rem;
+}
+
+ul.header-menu-principal li {
+   display: inline;
+   margin-left: 2rem;
+
+   font-size: 1.5rem;
+}
+
+ul.header-menu-principal li a:hover {
+   padding-bottom: 0.3rem;
+   position: relative;
+   animation: menu-barra-embaixo 1.2s none;
+ }
+
+ @keyframes menu-barra-embaixo {
+   0% {border-bottom: 0.2rem solid #AAFFFF; bottom: 0.05rem;}
+   50% {border-bottom: 0.2rem solid #333333; bottom: 0.075rem;}
+   100% {border-bottom: 0.2rem solid #000000; bottom: 0.1rem;}
+ }
