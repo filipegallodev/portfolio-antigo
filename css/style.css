@@ -35,8 +35,9 @@
    position: relative;
    padding-left: 0.5rem;
    border-left: 0.2rem solid #FFFFFF;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
 
-   font-size: 2.56rem;
+   font-size: 2.565rem;
 }
 
 .header-titulo strong {
@@ -63,22 +64,55 @@
    position: relative;
    border-bottom: 0.15rem solid #FFD700;
    padding: 0.3rem 0.4rem;
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
 
    font-size: 1.43rem;
    color: #FFD700;
 }
 
+.fixed-menu {
+   position: fixed;
+   top: 15px;
+   right: 15px;
+   width: 50px;
+   height: 50px;
+   background-color: #3333FF;
+   border-radius: 5px;
+
+   z-index: 1;
+}
+
 /* FIM DO HEADER */
 
 /* MAIN */
-.section-projetos {
-   max-width: 1400px;
-   padding: 40px 0;
-   margin: 0 auto;
+.foto-de-perfil {
+   width: 95%;
+   max-width: 400px;
+   margin: 20px 0;
+   border: 3px #3333FF solid;
+   border-radius: 100px 30px;
+   box-shadow: 0px 0px 25px 5px rgba(0, 0, 255, 0.25);
 }
 
-.section-projetos h2 {
-   font-size: 1.75rem;
+.section-sobre {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   max-width: 1100px;
+   margin: 40px auto 0;
+
+   text-align: left;
+}
+
+.section-projetos {
+   max-width: 1400px;
+   margin: 40px auto;
+}
+
+.section-projetos h2,
+.section-sobre h2 {
+   font-size: 1.95rem;
    font-weight: bold;
 }
 
@@ -103,7 +137,7 @@
 }
 
 .container-projetos li:hover {
-   transform: scale(1.1);
+   transform: scale(1.05);
 
    background-color: #2222FF;
    box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.75);
