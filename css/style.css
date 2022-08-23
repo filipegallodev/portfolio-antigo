@@ -129,6 +129,7 @@
    flex-wrap: wrap;
    justify-content: center;
    gap: 75px;
+   margin: 0 5px;
 }
 
 .container-projetos li {
