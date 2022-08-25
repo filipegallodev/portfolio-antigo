@@ -98,17 +98,17 @@
    text-align: left;
 }
 
-.section-sobre h2 {
+.sobre-intro h2 {
    font-size: 3rem;
    color: #4848ff;
    text-shadow: 1px 1px 10px rgba(51, 51, 255, 0.3);
 }
 
-.section-sobre p {
+.sobre-intro p {
    font-size: 1.8rem;
 }
 
-.section-sobre p:first-child {
+.sobre-intro p:first-child {
    font-size: 1.5rem;
 }
 
@@ -130,20 +130,22 @@
    box-shadow: 0px 0px 25px 5px rgba(51, 51, 255, 0.45);
 }
 
+.sobre-descricao {
+   width: 100%;
+   margin-top: 40px;
+   text-align: center;
+}
+
 .section-projetos {
    max-width: 1400px;
-   margin: 40px auto;
+   margin: 20px auto;
 }
 
-.section-projetos h2,
-.section-contato h2 {
-   font-size: 1.95rem;
-   font-weight: bold;
-}
-
-.section-projetos p {
-   margin: 30px 0;
-
+.sobre-descricao p,
+.section-projetos p,
+.section-contato p {
+   margin: 30px auto 40px;
+   width: 85%;
    font-size: 1.15rem;
 }
 
@@ -168,7 +170,7 @@
 .container-projetos li:hover {
    transform: scale(1.05);
 
-   margin: 0 5px;
+   margin: 5px 5px 0;
    border: 4px solid #3333FF;
    border-radius: 10px 30px;
    box-shadow: 0px 0px 25px 5px rgba(51, 51, 255, 0.25);
@@ -182,6 +184,10 @@
 .container-projetos li:hover h3 {
    font-size: 1.3rem;
    color: #FFD700;
+}
+
+.container-projetos p {
+   width: 100%;
 }
 
 .projeto-capa {
@@ -204,6 +210,11 @@ li:hover .projeto-capa {
    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.35);
 }
 
+.section-contato {
+   max-width: 1100px;
+   margin: 40px auto 60px;
+}
+
 /* FIM DO MAIN */
 
 /* Tags HTML */
@@ -217,6 +228,11 @@ body {
    font-family: 'Rubik', sans-serif;
    color: #FFFFFF;
    text-align: center;
+}
+
+h2 {
+   font-size: 1.95rem;
+   font-weight: bold;
 }
 
 footer {
@@ -236,4 +252,10 @@ footer a {
 footer a:hover {
    font-size: 1.34rem;
    color: #FFD700;
+}
+
+@media screen and (max-width: 480px) {
+   .section-sobre p, h2 {
+      text-align: center;
+   }
 }
