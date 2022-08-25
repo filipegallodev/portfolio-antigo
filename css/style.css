@@ -98,6 +98,20 @@
    text-align: left;
 }
 
+.section-sobre h2 {
+   font-size: 3rem;
+   color: #4848ff;
+   text-shadow: 1px 1px 10px rgba(51, 51, 255, 0.3);
+}
+
+.section-sobre p {
+   font-size: 1.8rem;
+}
+
+.section-sobre p:first-child {
+   font-size: 1.5rem;
+}
+
 .foto-de-perfil {
    width: 95%;
    max-width: 400px;
@@ -122,7 +136,7 @@
 }
 
 .section-projetos h2,
-.section-sobre h2 {
+.section-contato h2 {
    font-size: 1.95rem;
    font-weight: bold;
 }
@@ -181,7 +195,7 @@
 
 li:hover .projeto-capa {
    transform: scale(1.03);
-   
+
    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.35);
 }
 
