@@ -144,7 +144,7 @@
 .sobre-descricao p,
 .section-contato p {
    margin: 30px auto 40px;
-   width: 85%;
+   width: 90%;
    font-size: 1.25rem;
 }
 
@@ -152,6 +152,8 @@
    margin: 30px auto;
    width: 85%;
    font-size: 1.1rem;
+
+   transition: 1s;
 }
 
 .container-projetos {
@@ -183,12 +185,18 @@
 
 .container-projetos h3 {
    font-size: 1.3rem;
-   transition: 1s;
+
+   transition: 1.2s;
 }
 
 .container-projetos li:hover h3 {
    font-size: 1.5rem;
    color: #FFD700;
+}
+
+.container-projetos li:hover p {
+
+   font-size: 1.12rem;
 }
 
 .container-projetos h4 {
