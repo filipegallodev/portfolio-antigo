@@ -142,11 +142,16 @@
 }
 
 .sobre-descricao p,
-.section-projetos p,
 .section-contato p {
    margin: 30px auto 40px;
    width: 85%;
-   font-size: 1.15rem;
+   font-size: 1.25rem;
+}
+
+.section-projetos p {
+   margin: 30px auto;
+   width: 85%;
+   font-size: 1.1rem;
 }
 
 .container-projetos {
@@ -177,11 +182,24 @@
 }
 
 .container-projetos h3 {
-   font-size: 1.2rem;
+   font-size: 1.3rem;
    transition: 1s;
 }
 
 .container-projetos li:hover h3 {
+   font-size: 1.5rem;
+   color: #FFD700;
+}
+
+.container-projetos h4 {
+   padding: 20px 0 30px;
+   font-size: 1.2rem;
+
+   transition: 1s;
+}
+
+.container-projetos li:hover h4 {
+   padding-top: 25px;
    font-size: 1.3rem;
    color: #FFD700;
 }
@@ -196,6 +214,8 @@
    border-radius: 5px;
    border: 3px #222222 solid;
 
+   cursor: pointer;
+
    transition: 1.2s;
 }
 
@@ -203,6 +223,21 @@ li:hover .projeto-capa {
    transform: scale(1.03);
 
    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.35);
+}
+
+.projeto-tecnologias {
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   gap: 10px;
+
+   transition: 0.7s;
+}
+
+.container-projetos li:hover .projeto-tecnologias {
+   transform: scale(1.04);
+   gap: 5px;
+   padding-bottom: 8px;
 }
 
 .container-projetos img {
@@ -255,7 +290,9 @@ footer a:hover {
 }
 
 @media screen and (max-width: 480px) {
-   .section-sobre p, h2 {
+
+   .section-sobre p,
+   h2 {
       text-align: center;
    }
 }

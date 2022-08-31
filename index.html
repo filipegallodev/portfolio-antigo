@@ -12,6 +12,7 @@
    <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/style.css">
    <title>Desenvolvedor Filipe Gallo</title>
+   </style>
 </head>
 
 <body>
@@ -21,16 +22,16 @@
          <h1 class="header-titulo">Filipe <strong>Gallo</strong> &lt;/&gt;</h1>
          <nav>
             <ul class="header-menu-principal">
-               <li><a class="header-menu-itens" href="#anchor-sobre">Sobre</a></li>
-               <li><a class="header-menu-itens" href="#anchor-projetos">Projetos</a></li>
-               <li><a class="header-menu-itens" href="#anchor-contato">Contato</a></li>
+               <li><a class="header-menu-itens" href="#sobre">Sobre</a></li>
+               <li><a class="header-menu-itens" href="#projetos">Projetos</a></li>
+               <li><a class="header-menu-itens" href="#contato">Contato</a></li>
             </ul>
          </nav>
       </div>
    </header>
 
    <main>
-      <section class="section-sobre" id="anchor-sobre">
+      <section class="section-sobre" id="sobre">
          <div class="sobre-intro">
             <p>Olá! Eu sou o</p>
             <h2>Filipe Gallo</h2>
@@ -39,28 +40,40 @@
          <img src="imagens/foto-de-filipe-reduzida.jpg" alt="Foto de Filipe Gallo" class="foto-de-perfil">
          <div class="sobre-descricao">
             <h2>Sobre mim</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis labore tenetur nam aliquam accusamus fugiat exercitationem ea voluptatem quia eos, sed, nisi rerum dolor vitae? Exercitationem veritatis rem laborum labore laudantium.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis labore tenetur nam aliquam accusamus
+               fugiat exercitationem ea voluptatem quia eos, sed, nisi rerum dolor vitae? Exercitationem veritatis rem
+               laborum labore laudantium.</p>
          </div>
       </section>
 
-      <section class="section-projetos" id="anchor-projetos">
+      <section class="section-projetos" id="projetos">
          <h2>Projetos</h2>
          <p>Estes são os projetos que desenvolvi ao longo do tempo:</p>
          <ol class="container-projetos">
             <li>
-               <h3>Projeto 1</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolore minima deleniti laborum,
-                  assumenda cumque? Ratione, obcaecati! Temporibus, ut. Impedit in eius labore pariatur, neque officia
-                  at!</p>
+               <h3>Decodificador</h3>
+               <p>Projeto desenvolvido dentro do programa Oracle Next Education, uma parceria entre a Oracle e Alura.
+                  <br> Ele consiste em criptografar qualquer texto inserido e depois realizar a descriptografia,
+                  utilizando as chaves
+                  definidas pelo programa.
+               </p>
                <img src="imagens/projeto-criptografia.jpg" alt="Projeto de Criptografia" class="projeto-capa">
-               <p>Tecnologias</p>
-               <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                  alt="Logo do HTML5">
-               <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-                  alt="Logo do CSS3">
-               <img
-                  src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
-                  alt="Logo do JavaScript">
+               <h4>Tecnologias | Repositório</h4>
+               <div class="projeto-tecnologias">
+                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                     alt="Logo do HTML5">
+                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                     alt="Logo do CSS3">
+                  <img
+                     src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+                     alt="Logo do JavaScript">
+                  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+                     alt="Logo do GitHub">
+               </div>
+               <!-- <p><a href="https://github.com/filipegallodev/alura-challenge-criptografia" target="_blank"
+                     rel="external"><img
+                        src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+                        alt="Logo do GitHub"></a></p> -->
             </li>
             <li>
                <h3>Projeto 2</h3>
@@ -68,10 +81,12 @@
                   assumenda facere ullam sapiente expedita non. Qui impedit incidunt non, explicabo quidem eveniet.</p>
                <img src="imagens/projeto-lista-de-filmes.jpg" alt="Projeto Lista de Filmes" class="projeto-capa">
                <p>Tecnologias</p>
-               <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                  alt="Logo do HTML5">
-               <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-                  alt="Logo do CSS3">
+               <div class="projeto-tecnologias">
+                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                     alt="Logo do HTML5">
+                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                     alt="Logo do CSS3">
+               </div>
             </li>
             <li>
                <h3>Projeto 3</h3>
@@ -80,17 +95,35 @@
                   ratione provident fugit.</p>
                <img src="imagens/projeto-site-de-vagas.jpg" alt="Projeto Site de Vagas" class="projeto-capa">
                <p>Tecnologias</p>
-               <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                  alt="Logo do HTML5">
-               <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-                  alt="Logo do CSS3">
+               <div class="projeto-tecnologias">
+                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                     alt="Logo do HTML5">
+                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                     alt="Logo do CSS3">
+               </div>
+            </li>
+            <li>
+               <h3>Projeto 4</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio inventore delectus quae at omnis animi
+                  consectetur sequi, culpa ratione pariatur saepe consequatur hic! Animi, architecto mollitia dolores
+                  ratione provident fugit.</p>
+               <img src="imagens/projeto-bytebank.jpg" alt="Projeto ByteBank" class="projeto-capa">
+               <p>Tecnologias</p>
+               <div class="projeto-tecnologias">
+                  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"
+                     alt="Logo do C#">
+                  <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white"
+                     alt="Logo do .NET">
+               </div>
             </li>
          </ol>
       </section>
 
-      <section class="section-contato" id="anchor-contato">
+      <section class="section-contato" id="contato">
          <h2>Contato</h2>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eum similique mollitia nesciunt reiciendis cumque tenetur delectus veniam eaque non consequuntur odio quidem repudiandae fugiat, molestias explicabo impedit molestiae? Quaerat!</p>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eum similique mollitia nesciunt reiciendis
+            cumque tenetur delectus veniam eaque non consequuntur odio quidem repudiandae fugiat, molestias explicabo
+            impedit molestiae? Quaerat!</p>
       </section>
    </main>
 
