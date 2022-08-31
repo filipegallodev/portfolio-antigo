@@ -221,8 +221,6 @@
    border-radius: 5px;
    border: 3px #222222 solid;
 
-   cursor: pointer;
-
    transition: 1.2s;
 }
 
@@ -254,15 +252,15 @@ li:hover .projeto-capa {
 
 .projeto-tecnologias a {
    border-radius: 5px;
-   border: 2px solid #222222;
+   border-top: 2px solid #222222;
 
-   transition: 0.3s;
+   transition: 0.5s;
 }
 
 .projeto-tecnologias a:hover {
    transform: scale(1.05);
    border-radius: 5px;
-   border: 2px solid #FFFFFF;
+   border-top: 2px solid #FFFFFF;
 }
 
 .section-contato {
