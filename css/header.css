@@ -43,6 +43,7 @@ header {
 }
 
 .icon {
+  width: 32px;
   background-color: #222;
   border-radius: 6px;
   transition: 0.5s ease-out;
