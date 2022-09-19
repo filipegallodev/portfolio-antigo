@@ -2,164 +2,158 @@
 <html lang="pt-br">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/style.css">
-   <title>Desenvolvedor Filipe Gallo</title>
-   </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Site oficial do Desenvolvedor Front-End Filipe Gallo com portfólio de projetos e outras informações.">
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/technologies.css">
+
+  <title>Filipe Gallo - Desenvolvedor Front-End</title>
 </head>
 
 <body>
-   <p>SITE AINDA EM CONSTRUÇÃO...</p>
-   <header class="header-principal">
-      <div class="header-grid">
-         <h1 class="header-titulo">Filipe <strong>Gallo</strong> &lt;/&gt;</h1>
-         <nav>
-            <ul class="header-menu-principal">
-               <li><a class="header-menu-itens" href="#sobre">Sobre</a></li>
-               <li><a class="header-menu-itens" href="#projetos">Projetos</a></li>
-               <li><a class="header-menu-itens" href="#contato">Contato</a></li>
-            </ul>
-         </nav>
+  <header>
+    <div class="header-container">
+      <div class="header-titulo">
+        <h1><strong>Filipe</strong> Gallo</h1>
+        <img class="icon" src="assets/img/dev.png" alt="DEV">
       </div>
-   </header>
+      <div class="header-menu">
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-   <main>
-      <section class="section-sobre" id="sobre">
-         <div class="sobre-intro">
-            <p>Olá! Eu sou o</p>
-            <h2>Filipe Gallo</h2>
-            <p>Desenvolvedor Frontend</p>
-         </div>
-         <img src="imagens/foto-de-filipe-reduzida.jpg" alt="Foto de Filipe Gallo" class="foto-de-perfil">
-         <div class="sobre-descricao">
-            <h2>Sobre mim</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis labore tenetur nam aliquam accusamus
-               fugiat exercitationem ea voluptatem quia eos, sed, nisi rerum dolor vitae? Exercitationem veritatis rem
-               laborum labore laudantium.</p>
-         </div>
-      </section>
+  <main>
+    <section>
+      <div class="sobre-container">
+        <div class="sobre-titulo">
+          <h2>Olá! Eu sou <br />
+            <strong>Filipe Gallo</strong> <br />
+            Desenvolvedor <span>Front-End</span>
+          </h2>
+        </div>
+        <div>
+          <img class="sobre-foto" src="assets/img/foto-de-filipe.webp" alt="Foto de Filipe" />
+        </div>
+      </div>
 
-      <section class="section-projetos" id="projetos">
-         <h2>Projetos</h2>
-         <p>Estes são os projetos que desenvolvi ao longo do tempo:</p>
-         <ol class="container-projetos">
-            <li>
-               <h3>Decodificador</h3>
-               <p>Projeto desenvolvido dentro do programa Oracle Next Education, uma parceria entre a Oracle e Alura.
-                  <br> Ele consiste em criptografar qualquer texto inserido e depois realizar a descriptografia,
-                  utilizando as chaves
-                  definidas pelo programa.
-               </p>
-               <img src="imagens/projeto-criptografia.jpg" alt="Projeto de Criptografia" class="projeto-capa">
-               <h4>Tecnologias</h4>
-               <div class="projeto-tecnologias">
-                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                     alt="Logo do HTML5">
-                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-                     alt="Logo do CSS3">
-                  <img
-                     src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
-                     alt="Logo do JavaScript">
-               </div>
-               <h4>Repositório</h4>
-               <div class="projeto-tecnologias">
-                  <a href="https://github.com/filipegallodev/alura-challenge-criptografia" target="_blank"
-                     rel="external">
-                     <img
-                        src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                        alt="Logo do GitHub">
-                  </a>
-               </div>
-            </li>
-            <li>
-               <h3>Lista de Filmes</h3>
-               <p>Este foi um projeto pessoal simples para elaborar uma lista pessoal de filmes para assistir e de filmes
-                  já assistidos. <br> Nele possui os filmes separados por categorias e dentro de cada uma possui uma
-                  lista com nome, descrição, duração e trailer de cada filme.</p>
-               <img src="imagens/projeto-lista-de-filmes.jpg" alt="Projeto Lista de Filmes" class="projeto-capa">
-               <h4>Tecnologias</h4>
-               <div class="projeto-tecnologias">
-                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                     alt="Logo do HTML5">
-                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-                     alt="Logo do CSS3">
-               </div>
-               <h4>Repositório</h4>
-               <div class="projeto-tecnologias">
-                  <a href="https://github.com/filipegallodev/meus-filmes" target="_blank" rel="external">
-                     <img
-                        src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                        alt="Logo do GitHub">
-                  </a>
-               </div>
-            </li>
-            <li>
-               <h3>Projeto 3</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio inventore delectus quae at omnis animi
-                  consectetur sequi, culpa ratione pariatur saepe consequatur hic! Animi, architecto mollitia dolores
-                  ratione provident fugit.</p>
-               <img src="imagens/projeto-site-de-vagas.jpg" alt="Projeto Site de Vagas" class="projeto-capa">
-               <h4>Tecnologias</h4>
-               <div class="projeto-tecnologias">
-                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                     alt="Logo do HTML5">
-                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-                     alt="Logo do CSS3">
-               </div>
-               <h4>Repositório</h4>
-               <div class="projeto-tecnologias">
-                  <a href="https://github.com/filipegallodev/cinema-santa-americana" target="_blank" rel="external">
-                     <img
-                        src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                        alt="Logo do GitHub">
-                  </a>
-               </div>
-            </li>
-            <li>
-               <h3>Projeto 4</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio inventore delectus quae at omnis animi
-                  consectetur sequi, culpa ratione pariatur saepe consequatur hic! Animi, architecto mollitia dolores
-                  ratione provident fugit.</p>
-               <img src="imagens/projeto-bytebank.jpg" alt="Projeto ByteBank" class="projeto-capa">
-               <h4>Tecnologias</h4>
-               <div class="projeto-tecnologias">
-                  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"
-                     alt="Logo do C#">
-                  <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white"
-                     alt="Logo do .NET">
-               </div>
-               <h4>Repositório</h4>
-               <div class="projeto-tecnologias">
-                  <a href="https://github.com/filipegallodev/csharp-study/tree/master/alura/c%23-orientacao-a-objetos/bytebank/bytebank"
-                     target="_blank" rel="external">
-                     <img
-                        src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                        alt="Logo do GitHub">
-                  </a>
-               </div>
-            </li>
-         </ol>
-      </section>
+      <div class="sobre-descricao-container" id="sobre">
+        <div class="sobre-descricao-titulo">
+          <h2>Sobre mim</h2>
+        </div>
 
-      <section class="section-contato" id="contato">
-         <h2>Contato</h2>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eum similique mollitia nesciunt reiciendis
-            cumque tenetur delectus veniam eaque non consequuntur odio quidem repudiandae fugiat, molestias explicabo
-            impedit molestiae? Quaerat!</p>
-      </section>
-   </main>
+        <div>
+          <p>Bem vindo&#40;a&#41; ao meu site! Eu sou um <strong>Desenvolvedor Front-End</strong> <em>&#40;Veja a sessão
+              <a href="#tecnologias">Tecnologias</a> para conhecer mais sobre a minha stack&#41;</em>, além disso, sou
+            apaixonado pelo mundo do hardware, futebol, jogos, filmes e séries.</p>
 
-   <footer>
-      <p>Desenvolvido com <span style="color: #EE0000;">&#x2764;</span> por <a
-            href="https://github.com/filipegallodev">Filipe</a>!</p>
-   </footer>
+          <p>Sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> na UNINTER e <strong>Estagiário de
+              TI</strong> na Sequoia. Em pararelo, participo do Oracle Next Education, um programa de educação
+            tecnológica da Oracle em parceria com a Alura para formar desenvolvedores, além disso, faço cursos em
+            diversas plataformas, como a Origamid, Curso em Vídeo e Udemy.</p>
+
+          <p>Estou sempre buscando aprender algo novo ou melhorar as habilidades que minha stack usa. Aprender nunca é
+            demais!</p>
+
+          <p>Você pode se conectar comigo através dessas redes:</p>
+        </div>
+
+        <div class="redes-sociais-container">
+          <a href="https://www.linkedin.com/in/filipegallo/" target="external" rel="_blank">
+            <div>
+              <img src="assets/logos/linkedin-logo.svg" alt="LinkedIn" title="LinkedIn" />
+              <h3>LinkedIn</h3>
+            </div>
+          </a>
+
+          <a href="https://github.com/filipegallodev" target="external" rel="_blank">
+            <div>
+              <img src="assets/logos/github-logo.svg" alt="GitHub" title="GitHub" />
+              <h3>GitHub</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="tecnologias-container" id="tecnologias">
+        <div class="tecnologias-titulo">
+          <h2>Tecnologias</h2>
+        </div>
+
+        <div class="tecnologias-logos-container">
+          <div class="tecnologia-descricao">
+            <img src="assets/logos/html-logo.svg" alt="HTML5" title="HTML5" />
+            <h3>HTML5</h3>
+          </div>
+
+          <div class="tecnologia-descricao">
+            <img src="assets/logos/css-logo.svg" alt="CSS3" title="CSS3" />
+            <h3>CSS3</h3>
+          </div>
+
+          <div class="tecnologia-descricao">
+            <img src="assets/logos/javascript-logo.svg" alt="JavaScript" title="JavaScript" />
+            <h3>JavaScript</h3>
+          </div>
+
+          <div class="tecnologia-descricao">
+            <img src="assets/logos/typescript-logo.svg" alt="TypeScript" title="TypeScript" />
+            <h3>TypeScript</h3>
+          </div>
+
+          <div class="tecnologia-descricao">
+            <img src="assets/logos/react-logo.svg" alt="React" title="React" />
+            <h3>React</h3>
+          </div>
+
+          <div class="tecnologia-descricao">
+            <img src="assets/logos/git-logo.svg" alt="Git" title="Git" />
+            <h3>Git</h3>
+          </div>
+
+          <div class="tecnologia-descricao">
+            <img src="assets/logos/bootstrap-logo.svg" alt="Bootstrap" title="Bootstrap" />
+            <h3>Bootstrap 5</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="projetos-container" id="projetos">
+        <div>
+          <div class="projetos-titulo">
+            <h2>Projetos</h2>
+          </div>
+
+          <div>
+            <p>Esta sessão mostra apenas alguns dos projetos que já desenvolvi como desenvolvedor.</p>
+
+            <p><a href="https://github.com/filipegallodev?tab=repositories" rel="external" target="_blank">Clique
+                aqui</a> para ver todos os projetos desenvolvidos por mim, sejam eles front-end,
+              back-end, full-stack e até mesmo os mais simples, como os de console.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
