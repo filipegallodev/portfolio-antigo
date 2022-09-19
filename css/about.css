@@ -83,19 +83,22 @@
   }
 }
 
-@media (max-width: 445px) {
+@media (max-width: 450px) {
   .redes-sociais-container {
     display: flex;
     flex-wrap: wrap;
   }
 
   .redes-sociais-container div {
+    flex-direction: column;
     justify-content: center;
-    width: 120px;
+    gap: 10px;
+    width: 140px;
+    font-size: 1rem;
   }
 
   .redes-sociais-container h3 {
-    display: none;
+    margin-bottom: 15px;
   }
 }
 

@@ -31,11 +31,14 @@
   }
 
   .tecnologia-descricao {
+    flex-direction: column;
     justify-content: center;
-    width: 120px;
+    gap: 10px;
+    width: 140px;
+    font-size: 1rem;
   }
 
   .tecnologia-descricao h3 {
-    display: none;
+    margin-bottom: 15px;
   }
 }
