@@ -16,7 +16,7 @@
 }
 
 .projeto-item:hover {
-  transform: scale(1.01);
+  transform: scale(1.005);
   border-left: 3px #8cf solid;
   box-shadow: 0 0 10px #000;
 }
