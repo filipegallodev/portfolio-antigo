@@ -3,12 +3,12 @@
 .tecnologias-logos-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 18px;
   margin-top: 24px;
 }
 
 .tecnologia-descricao img {
-  margin: 15px;
+  margin: 12px;
   height: 64px;
 }
 

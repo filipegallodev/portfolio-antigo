@@ -18,7 +18,7 @@
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.452);
   color: #19f;
   font-size: 2.75rem;
-  line-height: 4rem;
+  line-height: 3.5rem;
 }
 
 .sobre-foto {
@@ -54,11 +54,14 @@
 
 .redes-sociais-container div {
   color: #fe8;
+  border-left: 2px #333 solid;
+  transition: 0.2s;
 }
 
 .redes-sociais-container div:hover {
   color: #fd0;
   box-shadow: 0 0 10px #000;
+  border-left: 2px #fe8 solid;
   transform: scale(1.01);
 }
 

@@ -8,7 +8,8 @@
   gap: 40px;
   width: 100%;
   background-color: #222;
-  border-radius: 10px;
+  border-radius: 4px 10px 10px 4px;
+  border-left: 3px #333 solid;
   box-shadow: 0 0 5px #000;
   padding: 24px;
   transition: 0.2s;
@@ -16,6 +17,7 @@
 
 .projeto-item:hover {
   transform: scale(1.01);
+  border-left: 3px #8cf solid;
   box-shadow: 0 0 10px #000;
 }
 
@@ -26,8 +28,6 @@
 .projeto-item-descricao {
   display: flex;
   gap: 32px;
-  /* border: 2px #333 solid;
-  box-shadow: 0 0 5px #111; */
   padding: 15px;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .projeto-item h3 {
-  color: #bef;
+  color: #8cf;
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -58,9 +58,10 @@
 .projeto-item a {
   background-color: #333;
   width: 100%;
-  padding: 8px 10px;
-  border-radius: 5px;
-  border: 2px solid #444;
+  padding: 10px 12px;
+  border-radius: 2px 5px 5px 2px;
+  border-left: 2px solid #444;
+  box-shadow: 0 0 3px #111;
   color: #fe8;
   font-weight: 400;
   font-size: 1rem;
@@ -68,7 +69,7 @@
 
 .projeto-item a:hover {
   color: #fd5;
-  border: 2px solid #fd5;
+  border-left: 2px solid #fd5;
 }
 
 .projetos-tecnologias {

@@ -14,7 +14,7 @@ header {
   justify-content: space-around;
   gap: 20px;
   height: 120px;
-  max-width: 960px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -62,11 +62,12 @@ header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 25px;
+  gap: 4px;
   font-size: 1.35rem;
 }
 
 .header-menu a {
+  padding: 12px;
   color: #fff;
   transition: 0.5s;
 }

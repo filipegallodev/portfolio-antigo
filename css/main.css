@@ -169,16 +169,16 @@ html {
 .projetos-titulo {
   font-size: 1.8rem;
   font-weight: 500;
-  color: #8cf;
+  color: #5cf;
 }
 
 .redes-sociais-container div,
 .tecnologia-descricao {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 16px;
   background-color: #222;
-  border-radius: 10px;
+  border-radius: 4px 10px 10px 4px;
   width: 100%;
   box-shadow: 0 0 5px #000;
   user-select: none;
