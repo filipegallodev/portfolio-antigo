@@ -154,9 +154,7 @@ html {
 }
 
 /* Identical Classes and Tags */
-.sobre-descricao-container,
-.tecnologias-container,
-.projetos-container {
+.section-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,9 +162,7 @@ html {
   margin: 100px auto;
 }
 
-.sobre-descricao-titulo,
-.tecnologias-titulo,
-.projetos-titulo {
+.section-titulo {
   font-size: 1.8rem;
   font-weight: 500;
   color: #5cf;
@@ -217,9 +213,7 @@ strong {
 
 @media (max-width: 1030px) {
 
-  .sobre-descricao-container,
-  .tecnologias-container,
-  .projetos-container {
+  .section-container {
     margin: 100px 20px;
   }
 }

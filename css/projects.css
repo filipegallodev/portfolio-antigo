@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .projeto-item {
-  margin: 24px 0;
+  margin: 24px 0 0;
   display: grid;
   grid-template-columns: 480px 1fr;
   align-items: center;
