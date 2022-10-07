@@ -35,7 +35,8 @@
   border-radius: 10px;
 }
 
-.projeto-item h3 {
+.projeto-item h3,
+.projeto-item h4 {
   color: #8cf;
   font-size: 1.2rem;
   font-weight: 500;
@@ -44,7 +45,7 @@
 .projeto-item p {
   margin-top: 12px;
   line-height: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: 0.05rem;
 }
 
@@ -79,13 +80,17 @@
   gap: 5px;
 }
 
-.projetos-tecnologias p {
+.projetos-tecnologias span {
   margin: 0;
-  background-color: #333;
   padding: 5px 10px;
+  background-color: #333;
   border-radius: 10px;
+  color: #eee;
+  letter-spacing: 0.05rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  user-select: none;
+  line-height: 1.5rem;
+  cursor: default;
 }
 
 @media (max-width: 960px) {
