@@ -12,6 +12,10 @@
   height: 64px;
 }
 
+.tecnologia-descricao {
+  cursor: pointer;
+}
+
 .tecnologia-descricao:hover {
   color: #afc;
   box-shadow: 0 0 10px #000;

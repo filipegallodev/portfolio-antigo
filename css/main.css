@@ -162,7 +162,7 @@ html {
 }
 
 .section-titulo {
-  font-size: 1.8rem;
+  font-size: 1.75rem;
   font-weight: 500;
   color: #5cf;
 }
@@ -183,11 +183,11 @@ html {
 
 section div p {
   margin-top: 24px;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   font-weight: 300;
   line-height: 1.75rem;
   color: #eee;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.0875rem;
 }
 
 section div p strong {
