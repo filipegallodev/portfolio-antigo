@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.footer-container {
+  background-image: url("../assets/img/header-footer-background.svg");
+  /* background by SVGBackgrounds.com */
+  padding: 54px;
+  box-shadow: 0px 0px 15px #00000090;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.footer-container a {
+  color: #fe8;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.footer-container a:hover {
+  color: #fd0;
+}

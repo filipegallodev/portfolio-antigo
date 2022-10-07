@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 header {
-  background-image: url("../assets/img/header-background.svg");
+  background-image: url("../assets/img/header-footer-background.svg");
   /* background by SVGBackgrounds.com */
   box-shadow: 1px 1px 15px 1px #000;
 }
