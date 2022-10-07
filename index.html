@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="./css/projects.css" />
     <link rel="stylesheet" href="./css/modal.css" />
     <link rel="stylesheet" href="./css/modal-mobile.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/footer.css" />
 
     <title>Filipe Gallo - Desenvolvedor Front-End</title>
@@ -260,7 +261,40 @@
           </div>
 
           <div>
-            <p>Adicionando conteúdo de contato...</p>
+            <p>
+              Você pode entrar em contato comigo através do formulário abaixo ou
+              pelas redes sociais que disponibilizei.
+            </p>
+          </div>
+          <div class="contact-container">
+            <form>
+              <div class="form-container">
+                <div class="subject">
+                  <label for="subject">Assunto:</label>
+                  <input
+                    class="subject-text"
+                    type="text"
+                    id="subject"
+                    placeholder="Título"
+                    required
+                  />
+                </div>
+                <div class="msg">
+                  <label for="msg">Mensagem:</label>
+                  <textarea
+                    class="body-text"
+                    id="msg"
+                    cols="30"
+                    rows="10"
+                    placeholder="Conteúdo da mensagem..."
+                    required
+                  ></textarea>
+                </div>
+                <div>
+                  <button class="submit-button">Enviar</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </section>
@@ -280,6 +314,6 @@
       </div>
     </footer>
 
-    <script src="scripts/script.js" type="module"></script>
+    <script src="./main.js" type="module"></script>
   </body>
 </html>
