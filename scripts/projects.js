@@ -24,4 +24,12 @@ export const projects = [
     github: "https://github.com/filipegallodev/note-list",
     test: "https://filipegallodev.github.io/note-list/",
   },
+  {
+    name: "Optimus Tech - Vagas",
+    description: "Página estática de vagas de uma empresa fictícia.",
+    url: "../assets/projectscovers/optimustech-cover.webp",
+    technologies: ["HTML5", "CSS3"],
+    github: "https://github.com/filipegallodev/optimus-tech-vagas",
+    test: "https://filipegallodev.github.io/optimus-tech-vagas/",
+  },
 ];
