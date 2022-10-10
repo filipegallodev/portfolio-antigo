@@ -16,4 +16,12 @@ export const projects = [
     github: "https://github.com/filipegallodev/alura-challenge-criptografia",
     test: "https://filipegallodev.github.io/alura-challenge-criptografia/",
   },
+  {
+    name: "Lista de Notas",
+    description: "Aplicação WEB para escrever e salvar notas.",
+    url: "../assets/projectscovers/noteapp-cover.webp",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/filipegallodev/note-list",
+    test: "https://filipegallodev.github.io/note-list/",
+  },
 ];

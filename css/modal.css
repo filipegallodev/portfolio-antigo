@@ -21,7 +21,7 @@
   border: 2px solid #333;
   border-radius: 8px;
   box-shadow: 0px 0px 15px #000;
-  animation: ola 0.4s;
+  animation: modalOpacity 0.4s;
 }
 
 .modal-header {
@@ -76,7 +76,7 @@
   color: #fd0;
 }
 
-@keyframes ola {
+@keyframes modalOpacity {
   from {
     opacity: 0;
   }
