@@ -25,6 +25,14 @@ export const projects = [
     test: "https://filipegallodev.github.io/note-list/",
   },
   {
+    name: "Encurtador de Links",
+    description: "Aplicação WEB para encurtar links muito grandes.",
+    url: "../assets/projectscovers/encurtador-cover.webp",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/filipegallodev/url-shortner",
+    test: "https://encurtador-de-links-fg.vercel.app/",
+  },
+  {
     name: "Optimus Tech - Vagas",
     description: "Página estática de vagas de uma empresa fictícia.",
     url: "../assets/projectscovers/optimustech-cover.webp",
