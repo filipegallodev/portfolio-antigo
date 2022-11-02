@@ -11,7 +11,7 @@ export const projects = [
   {
     name: "Animais Fantásticos",
     description: "Projeto desenvolvido no curso de JavaScript da Origamid.",
-    url: "../assets/projectscovers/optimustech-cover.webp",
+    url: "../assets/projectscovers/animais-fantasticos-cover.webp",
     technologies: ["HTML5", "CSS3", "JavaScript", "ESLint", "Babel", "Webpack", "Fetch"],
     github: "https://github.com/filipegallodev/javascript-origamid/tree/main/projeto-final/animais-fantasticos",
     test: "https://animais-fantasticos-origamid-fg.vercel.app/",
