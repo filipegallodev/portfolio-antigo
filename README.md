@@ -1,4 +1,6 @@
-# 🌎 Site com portfólio (Ultrapassado, meu novo site com portfólio: https://github.com/filipegallodev/portfolio-nextjs)
+# 🌎 Site com portfólio
+> (Ultrapassado, meu novo site com portfólio: https://github.com/filipegallodev/portfolio-nextjs)
+
 ![Capa](https://i.imgur.com/PkJKPRk.png)
 
 ## 🎯 Objetivo
