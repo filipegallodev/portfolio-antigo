@@ -3,7 +3,7 @@ export const projects = [
     name: "Filmes Populares",
     description:
       "Aplicação WEB para consulta de filmes e criação de lista de favoritos.",
-    url: "../assets/projectscovers/filmes-cover.webp",
+    url: "../portfolio/assets/projectscovers/filmes-cover.webp",
     technologies: ["HTML5", "CSS3", "JavaScript", "Fetch", "TMDB API"],
     github: "https://github.com/filipegallodev/popular-movies",
     test: "https://popular-movies-filipegallodev.vercel.app/",
@@ -11,7 +11,7 @@ export const projects = [
   {
     name: "Animais Fantásticos",
     description: "Projeto desenvolvido no curso de JavaScript da Origamid.",
-    url: "../assets/projectscovers/animais-fantasticos-cover.webp",
+    url: "../portfolio/assets/projectscovers/animais-fantasticos-cover.webp",
     technologies: ["HTML5", "CSS3", "JavaScript", "ESLint", "Babel", "Webpack", "Fetch"],
     github: "https://github.com/filipegallodev/javascript-origamid/tree/main/projeto-final/animais-fantasticos",
     test: "https://animais-fantasticos-origamid-fg.vercel.app/",
@@ -19,7 +19,7 @@ export const projects = [
   {
     name: "Decodificador",
     description: "Aplicação WEB para criptografar e descriptografar textos.",
-    url: "../assets/projectscovers/decodificador-cover.webp",
+    url: "../portfolio/assets/projectscovers/decodificador-cover.webp",
     technologies: ["HTML5", "CSS3", "JavaScript", "RegExp"],
     github: "https://github.com/filipegallodev/alura-challenge-criptografia",
     test: "https://filipegallodev.github.io/alura-challenge-criptografia/",
@@ -27,7 +27,7 @@ export const projects = [
   {
     name: "App de Lista de Notas",
     description: "Aplicação WEB para escrever e salvar notas.",
-    url: "../assets/projectscovers/noteapp-cover.webp",
+    url: "../portfolio/assets/projectscovers/noteapp-cover.webp",
     technologies: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/filipegallodev/note-list",
     test: "https://filipegallodev.github.io/note-list/",
@@ -35,7 +35,7 @@ export const projects = [
   {
     name: "Encurtador de Links",
     description: "Aplicação WEB para encurtar links muito grandes.",
-    url: "../assets/projectscovers/encurtador-cover.webp",
+    url: "../portfolio/assets/projectscovers/encurtador-cover.webp",
     technologies: ["HTML5", "CSS3", "JavaScript", "Fetch"],
     github: "https://github.com/filipegallodev/url-shortner",
     test: "https://encurtador-de-links-fg.vercel.app/",
@@ -43,7 +43,7 @@ export const projects = [
   {
     name: "Optimus Tech - Vagas",
     description: "Página estática de vagas de uma empresa fictícia.",
-    url: "../assets/projectscovers/optimustech-cover.webp",
+    url: "../portfolio/assets/projectscovers/optimustech-cover.webp",
     technologies: ["HTML5", "CSS3"],
     github: "https://github.com/filipegallodev/optimus-tech-vagas",
     test: "https://filipegallodev.github.io/optimus-tech-vagas/",
